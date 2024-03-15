@@ -24,8 +24,8 @@
   border-radius: 50%;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
   transition: opacity 0.3s, filter 1s ease-in;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
 }
 
 .landing--img:hover {

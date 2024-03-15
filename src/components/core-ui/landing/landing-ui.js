@@ -74,11 +74,11 @@ function LandingUI({ theme, drawerOpen, classes }) {
                             </a>
                         )}
                     </div>
-                </div>
+                </div> 
                 <img
                     src={'./profile.jpg'}
                     alt='ahmedin'
-                    className='landing--img'
+                    className=''
                     style={{
                         opacity: `${drawerOpen ? '0' : '1'}`,
                         borderColor: theme.primary,
