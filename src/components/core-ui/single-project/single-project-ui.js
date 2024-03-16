@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaCode, FaPlay } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
 import './single-project.css';
 
 function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, classes }) {
-
+     const [hovered,setHovered]=useState(false)
+     const hoverStyle=()=>{
+         return "it is private";
+     }
 
     return (
         <Fade bottom>
@@ -54,11 +57,14 @@ function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, class
                                     .toLowerCase()}-code`}
                         >
                             <FaCode
+                                onMouseEnter={() => setHovered(true)}
+                                onMouseLeave={() => setHovered(false)}
                                 id={`${name
                                     .replace(' ', '-')
                                     .toLowerCase()}-code`}
                                 className={classes.icon}
                                 aria-label='Code'
+                                title={!code && 'this project code is privated'}
                             />
                         </a>
                     </div>
