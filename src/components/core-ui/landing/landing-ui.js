@@ -18,9 +18,20 @@ function LandingUI({ theme, drawerOpen, classes }) {
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
-                    style={{ backgroundColor: theme.quaternary }}
+                    style={{ backgroundColor: theme.quaternary,display:"grid" }}
                 >
-                    <div className='lcl--content'>
+                    <img
+                        src={'./profileCopy.png'}
+                        alt='ahmedin'
+                        className=''
+                        style={{
+                            opacity: `${drawerOpen ? '0' : '1'}`,
+                            borderColor: theme.primary,
+                            marginBottom:"40px",
+                            height:"700px",
+                        }}
+                    />
+                     <div className='lcl--content'>
                         {contactsData.linkedIn && (
                             <a
                                 href={contactsData.linkedIn}
@@ -75,16 +86,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         )}
                     </div>
                 </div> 
-                <img
-                    src={'./profile.jpg'}
-                    alt='ahmedin'
-                    className=''
-                    style={{
-                        opacity: `${drawerOpen ? '0' : '1'}`,
-                        borderColor: theme.primary,
-                        marginBottom:"20px",
-                    }}
-                />
+               
                 <div
                     className='landing--container-right'
                     style={{ backgroundColor: theme.secondary }}

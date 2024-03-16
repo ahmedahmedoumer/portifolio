@@ -35,7 +35,7 @@
 
 .landing--container-left {
   flex: 35%;
-  height: 100%;
+  height: 80%;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -108,7 +108,7 @@
 
 @media (max-width: 1100px) {
   .landing--img {
-    --img-size: 350px;
+    --img-size: 10px;
   }
   .lcl--content {
     margin: 2rem;
@@ -140,7 +140,7 @@
 
 @media (max-width: 900px) {
   .landing--img {
-    --img-size: 300px;
+    --img-size: 100px;
   }
 
   .landing--social {
@@ -170,7 +170,7 @@
     justify-content: space-between;
   }
   .landing--img {
-    --img-size: 200px;
+    --img-size: 100px;
     left: 50%;
     top: 30%;
     border: 8px solid #eaeaea;
