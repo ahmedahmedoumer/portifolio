@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaCode, FaPlay } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
