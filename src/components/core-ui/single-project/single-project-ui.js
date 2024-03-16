@@ -5,11 +5,6 @@ import placeholder from '../../../assets/png/placeholder.png';
 import './single-project.css';
 
 function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, classes }) {
-     const [hovered,setHovered]=useState(false)
-     const hoverStyle=()=>{
-         return "it is private";
-     }
-
     return (
         <Fade bottom>
             <div
@@ -57,8 +52,6 @@ function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, class
                                     .toLowerCase()}-code`}
                         >
                             <FaCode
-                                onMouseEnter={() => setHovered(true)}
-                                onMouseLeave={() => setHovered(false)}
                                 id={`${name
                                     .replace(' ', '-')
                                     .toLowerCase()}-code`}
