@@ -12,7 +12,7 @@ export const projectsData = [
         projectDesc: 'This project about Simplifying the Development of Supply chain management.',
         tags: ['React', 'Laravel', 'React Bootstrap'],
         // code: 'https://github.com/IE-Network-Solutions/SCM-Front.git',
-        demo: 'https://ienetworks.co/scm',
+        demo: 'https://scm.ienetworks.co/login',
         image: "../scm.png"
     },
     {
@@ -21,7 +21,7 @@ export const projectsData = [
         projectDesc: 'This project is a servie desk support platform, client who want to make request can be request for the service provider.',
         tags: ['React', 'Express', 'Tailwindcss'],
         // code: 'https://github.com/IE-Network-Solutions/ie-service-desk.git',
-        demo: 'https://ienetworks.co/sd',
+        demo: 'https://sd.ienetworks.co',
         image: "../sd.png"
     },
     {
@@ -30,7 +30,7 @@ export const projectsData = [
         projectDesc: 'This project is a servie desk support platform, client who want to make request can be request for the service provider.',
         tags: ['React', 'Express', 'Tailwindcss'],
         // code: 'https://github.com/IE-Network-Solutions/ie-service-desk.git',
-        demo: 'https://ienetworks.co/Pm',
+        demo: 'https://pm.ienetworks.co',
         image: '../PM.jpg'
     },
     {
