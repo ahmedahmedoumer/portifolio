@@ -27,11 +27,29 @@ export const projectsData = [
     {
         id: 2,
         projectName: 'Project Management',
-        projectDesc: 'This project is a servie desk support platform, client who want to make request can be request for the service provider.',
+        projectDesc: 'Project Management Software is a comprehensive solution designed to streamline and optimize the planning, execution, and completion of projects across various industries.',
         tags: ['React', 'Express', 'Tailwindcss'],
         // code: 'https://github.com/IE-Network-Solutions/ie-service-desk.git',
         demo: 'https://pm.ienetworks.co',
-        image: '../PM.jpg'
+        image: '../PM.png'
+    },
+    {
+        id: 2,
+        projectName: 'PEP',
+        projectDesc: 'The People Productivity System (PEP) serves as a comprehensive solution for optimizing employee performance and collaboration within organizations',
+        tags: ['NEXT', 'Nest', 'antD','chkra UI'],
+        // code: 'https://github.com/IE-Network-Solutions/ie-service-desk.git',
+        demo: 'https://PEP.ienetworks.co',
+        image: "../pep.png"
+    },
+    {
+        id: 2,
+        projectName: 'Payroll',
+        projectDesc: 'The Payroll System efficiently manages employee compensation, tax deductions, and benefits.',
+        tags: ['React', 'Express', 'Tailwindcss'],
+        // code: 'https://github.com/IE-Network-Solutions/ie-service-desk.git',
+        demo: 'https://payroll.ienetworks.co',
+        image: "../payroll.png"
     },
     {
         id: 3,
